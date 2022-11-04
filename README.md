@@ -1,29 +1,38 @@
-# IOTA Index Option Trading Aid
+# create-svelte
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/87ab1347-261e-41d5-866e-20612fd29368/deploy-status)](https://app.netlify.com/sites/luminous-zuccutto-bae5f1/deploys)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Page concepts
+## Creating a project
 
-### Contract
+If you're seeing this, you've probably already done this step. Congrats!
 
-- Number of contracts
-- Strike Price
-- Index
-- Buy date
-- Expiry date
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-### Investment
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-- Capital
-- Expected return
-- Safety Price
+## Developing
 
-### Market
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- Volatility
-- Interest rate (?)
+```bash
+npm run dev
 
-### Broker
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- Margin
-- Minimum index contracts
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
